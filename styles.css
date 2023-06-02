@@ -13,9 +13,6 @@ body {
     background-position: center;
 
     overflow-x: hidden;
-
-  
-    
 }
 
 
@@ -24,56 +21,92 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
-    
+
 
 }
 
 td {
-  
     border-bottom: 1px solid #000;
+    padding: 10px 0px 0px 0px;
 }
 
-.menu-items{
-    width:70%
-
+td p {
+    margin-bottom: 0px;
 }
-.menu-price{
+
+.menu-items {
+    width: 70%
+}
+
+.menu-price {
     width: 30%;
-    text-align:start;
+    text-align: center;
 }
 
-.cold-drink-items{
+.cold-drink-items {
     background-color: #444546;
 
 }
-.hot-drink-items h4{
+
+.cold-drink-items h4 {
+    color: #fff;
+    opacity: 0.7;
+
+
+}
+
+.hot-drink-items h4 {
     color: #b1775f;
-    
-}
-.hot-drink-items {
-   
-    
-}
-
-.main-items{
- background-color: #d8d3cf;
 
 }
 
-.breakfast-items{
+.breakfast-items h4{
+    color: #fff;
+    opacity: 0.7;
+
+}
+
+.hot-drink-items {}
+
+.main-items {
+    background-color: #d8d3cf;
+
+}
+.main-items h4{
+    text-align: center;
+}
+
+.breakfast-items {
     background-color: #b1775f;
- 
+
 }
-.appetizer-items{
+
+.appetizer-items {
     /* padding: 50px; */
 }
 
-.breakfast-items p{
+.breakfast-items p {
     color: #fff;
     opacity: 0.7;
 }
 
-.cold-drink-items p{
+.cold-drink-items p {
     color: #fff;
     opacity: 0.7;
+}
+
+.top-text{
+    padding: 40px 0px;
+}
+
+
+
+@media (max-width: 767px) {
+    .main-items h4{
+        text-align: start;
+    }
+    .top-text{
+        padding: 40px 0px 0px 0px;
+    }
+
 }
